@@ -14,4 +14,29 @@
     justify-content: space-between;
 }
 
+.nav__notification{
+    position: absolute;
+    left: 15px;
+    top: -15px;
+}
+
+.nav__link {
+position: relative ;
+}
+
+.notification--smaller {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    right: -10px;
+    top: -5px;
+}
+
+
+
+
+
+
+
+
 

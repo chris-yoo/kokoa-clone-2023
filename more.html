@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Friends Screen-Kokoa Talk</title>
+    <title>More-Kokoa Talk</title>
   </head>
   <body>
     <div class="status-bar">
@@ -23,8 +23,8 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">Friends</h1>
-      <div class="screen-header__icons">
+      <h1 class="screen-header__title">More</h1>
+      <div class="screen-header__icons cog-badge">
         <span><i class="fas fa-search fa-lg"></i></span>
         <span><i class="fas fa-music fa-lg"></i></span>
         <span class="screen-header__cog-badge">
@@ -37,13 +37,7 @@
       </div>
     </header>
 
-    <a id="frieds-display-link">
-      <i class="fas fa-info-circle"></i>
-      Friends' Names Display
-      <i class="fas fa-chevron-right fa-xs"></i>
-    </a>
-
-    <main class="friends__screen">
+    <main class="main-screen more-screen">
       <div class="user-component">
         <div class="user-component__column">
           <img
@@ -52,112 +46,79 @@
           />
           <div class="user-component__text">
             <h4 class="user-component__title">Hanni</h4>
-            <!--<h6 class="user-component__subtitle">this text whatever</h6>-->
+            <h6 class="user-component__subtitle">
+              010-1111-1111<i class="fas fa-exclamation-circle"></i>
+            </h6>
           </div>
         </div>
-        <div class="user-component__column"></div>
+        <div class="user-component__column">
+          <i class="far fa-comment-alt fa-2x"></i>
+        </div>
       </div>
 
-      <div class="friends-screen__chanel">
-        <div class="friends-screen__chanel-header">
-          <span>channel</span>
-          <i class="fas fa-chevron-up"></i>
+      <div class="icon-row">
+        <div class="icon-row__icon">
+          <i class="fas fa-calendar-week"></i>
+          <span>Calendar</span>
         </div>
+        <div class="icon-row__icon">
+          <i class="far fa-smile"></i>
+          <span>Emoticons</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-paint-roller"></i>
+          <span>Themes</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-file-invoice-dollar"></i>
+          <span>Account</span>
+        </div>
+      </div>
+      <div class="icon-row">
+        <div class="icon-row__icon">
+          <i class="fas fa-microphone-alt"></i>
+          <span>Newjeans</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-carrot"></i>
+          <span>Bunnies!!</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-paint-roller hidden-color"></i>
+          <span class="hidden-color">Themes</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-file-invoice-dollar hidden-color"></i>
+          <span class="hidden-color">Account</span>
+        </div>
+      </div>
 
-        <div class="user-component">
-          <div class="user-component__column">
+      <div class="more-suggestions">
+        <h4 class="more-suggestions__title">Suggestions</h4>
+        <div class="more-suggestions__icons">
+          <div class="more-suggestions__icon">
             <img
-              class="user-component__avartar user-component__avartar--sm"
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS691gJPf4ioHapIwsWf0SkxhyXdDopQnq4_A&usqp=CAU"
+              class="more-suggestions__icon-image"
+              src="https://static.wikia.nocookie.net/kpop/images/4/4c/NewJeans_OMG_cover_art.png/revision/latest?cb=20230102091359"
             />
-            <div class="user-component__text">
-              <h4 class="user-component__title user-component__title--not-bold">
-                NewJeans.official
-              </h4>
-              <!--<h6 class="user-component__subtitle">this text whatever</h6>-->
-            </div>
+            <span class="more-suggestions__icon-text">NewJeans 'OMG'</span>
           </div>
-          <div class="user-component__column">
-            <div>
-              <span>2</span>
-              <i class="fas fa-chevron-right"></i>
-            </div>
+          <div class="more-suggestions__icon">
+            <img
+              class="more-suggestions__icon-image"
+              src="https://static.wikia.nocookie.net/kpop/images/6/61/NewJeans_Zero_album_cover.png/revision/latest?cb=20230401195516"
+            />
+            <span class="more-suggestions__icon-text">Zero</span>
           </div>
         </div>
       </div>
-
-      <ul class="friends-list">
-        <span>friends 4</span>
-        <li class="friends-list-minji">
-          <div class="user-component">
-            <div class="user-component__column">
-              <img
-                class="user-component__avartar user-component__avartar--sm"
-                src="https://photo.newsen.com/mphoto/2022/08/12/202208120933365510_1.jpg"
-              />
-              <div class="user-component__text">
-                <h4 class="user-component__title">Minji</h4>
-                <h6 class="user-component__subtitle">What's your ETA!</h6>
-              </div>
-            </div>
-            <div class="user-component__column"></div>
-          </div>
-        </li>
-        <li class="friends-list-daniel">
-          <div class="user-component">
-            <div class="user-component__column">
-              <img
-                class="user-component__avartar user-component__avartar--sm"
-                src="https://img.vogue.co.kr/vogue/2023/03/style_6414203370a65.jpg"
-              />
-              <div class="user-component__text">
-                <h4 class="user-component__title">Daniel</h4>
-                <h6 class="user-component__subtitle">Oh say it ditto</h6>
-              </div>
-            </div>
-            <div class="user-component__column"></div>
-          </div>
-        </li>
-        <li class="friends-list-haerin">
-          <div class="user-component">
-            <div class="user-component__column">
-              <img
-                class="user-component__avartar user-component__avartar--sm"
-                src="https://cdn.topstarnews.net/news/photo/202308/15379917_1159014_4221.jpg"
-              />
-              <div class="user-component__text">
-                <h4 class="user-component__title">Haerin</h4>
-                <h6 class="user-component__subtitle">Attention</h6>
-              </div>
-            </div>
-            <div class="user-component__column"></div>
-          </div>
-        </li>
-        <li class="friends-list-hyein">
-          <div class="user-component">
-            <div class="user-component__column">
-              <img
-                class="user-component__avartar user-component__avartar--sm"
-                src="https://cdn.hankooki.com/news/photo/202303/64043_85143_1678893352.jpg"
-              />
-              <div class="user-component__text">
-                <h4 class="user-component__title">Hyein</h4>
-                <h6 class="user-component__subtitle">
-                  And I wanna go out with you
-                </h6>
-              </div>
-            </div>
-            <div class="user-component__column"></div>
-          </div>
-        </li>
-      </ul>
     </main>
 
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__btn">
           <a class="nav__a" href="friends.html">
-            <i class="fas fa-user fa-2x"></i>
+            <i class="far fa-user fa-2x"></i>
           </a>
         </li>
         <li class="nav__btn">

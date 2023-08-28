@@ -1,0 +1,28 @@
+.badge{
+    background-color: var(--new-jeans-color);
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+}
+
+
+.cog-badge{
+    display: flex;
+}
+
+.screen-header__cog-badge i {
+    position: relative;
+}
+
+.screen-header__cog-badge i span{
+    position: absolute;
+    right: -30px;
+    top: -5px;
+    width: 10px;
+    height: 10px;
+}

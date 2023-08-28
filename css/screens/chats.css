@@ -1,0 +1,10 @@
+.chat-main .user-component {
+    margin: 10px 0px;
+    padding: 10px;
+    border-radius: 15px;
+    transition: box-shadow 0.5s ease-in-out;
+}
+
+.chat-main .user-component:hover {
+    box-shadow: 10px 10px 5px -5px var(--new-jeans-color);
+}
