@@ -107,3 +107,23 @@
 .anoter-box-shadow{
     box-shadow: 0px 0px 10px 1px rgb(118, 29, 168);
 }
+
+@keyframes heartBeat {
+    0%{
+        transform: none;
+        color: white;
+    }
+    50%{
+        transform: scale(1.5);
+        color: rgb(233, 42, 182);
+    }
+    100%{
+        transform: none;
+        color: white;
+    }
+}
+
+.open-post__heart-count:hover i {
+    will-change: transform;
+    animation: heartBeat 1s linear infinite;
+}

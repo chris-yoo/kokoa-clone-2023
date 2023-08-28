@@ -15,11 +15,11 @@
     display: flex;
 }
 
-.screen-header__cog-badge i {
+.screen-header__cog-badge a{
     position: relative;
 }
 
-.screen-header__cog-badge i span{
+.screen-header__cog-badge span{
     position: absolute;
     right: -30px;
     top: -5px;
